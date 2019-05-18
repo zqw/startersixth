@@ -1,0 +1,28 @@
+logging:
+  level:
+    com.johney.fifth: INFO
+    org.springframework.boot.context: INFO
+server:
+  compression:
+    enabled: true
+  port: 8080
+  servlet: 
+    context-path: /starterfifth
+springfox:
+  documentation:
+    swagger.v2.path: /v2/api-docs
+    info:
+      title: 
+      description: Main Docs.
+      version: 1.0
+    base-package: com.johney.fifth
+
+
+spring:
+  messages:
+    basename: i18n/messages
+  cache:
+    type: redis
+
+
+
