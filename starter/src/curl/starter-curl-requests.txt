@@ -1,8 +1,0 @@
-# Hello
-curl -X GET http://localhost:8080/starter/hello
-
-# Date-now
-curl -X GET http://localhost:8080/starter/date/now
-
-
-
